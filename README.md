@@ -1,27 +1,77 @@
 # ConnectFour
 Author: Oween Cesar Barranzuela Carrasco, Student Number = 2***3
-Connect-Four in Python
-Solution for: Programming 2, Exercise Performance Task 1
+This repository contains three small projects developed as part of our Programming 2 lecture. These projects were intended to help us improve our Python skills and are subject to mistakes.
+Projects Overview
 
-Recommendations:
-You may need to install separately numpy or pgame too.
-After running the file, you should write your input in the console: 
-   - two_players : you will get the first turn in a two-players game.
-   - random : you may get the first or second turn against your oponent. Since it is using random, it can be that one 
-   of the players receive the same turn again.
-   - ai: you will get the first turn against AI
-After you win or lose, there will be a message in the console, write yes to continue or not to exit 
+    Connect Four
+        Description: This project implements the famous Connect Four game. The game includes an AI opponent that uses the Minimax algorithm to make decisions.
+        Files: connect_four.py
+        Features:
+            Player vs. Player mode
+            Player vs. AI mode using the Minimax algorithm
+        Usage:
+            Run the script: python connect_four.py
+            Follow the on-screen instructions to play the game.
 
-IMPORTANT REMARKS:
-!! Chat gpt was used to debbuging specially to deal with the two players-random-ai modes.
-!! You can find the used sources with their links in this file. 
-!!  When playing against AI, the evaluation score will be displayed in the console, it may take up to 30 seconds or less than 
-one minute for AI to give its decision (In Pycharm and VS took less than the python IDLE ). One of its characteristics is that it will try to block your wins so I would encourage the user
-to try to make a win to see this AI's functionality. 
+    Timer
+        Description: This project is a simple timer application using the Tkinter library.
+        Files: timer.py
+        Features:
+            Start, stop, and reset timer functionality
+            User-friendly graphical interface
+        Usage:
+            Run the script: python timer.py
+            Use the interface buttons to control the timer.
 
-!! When the pygame window is displayed the user turn will be determined by a circle in the bottom-side. The idea was that the user
-can move and select the column when clicking the circle from the bottom-side. However, the user can select an input by clicking also in the 
-desired column (due to a bug,i couldnt solve this issue)
+    Dithering
+        Description: This project demonstrates two dithering algorithms (Threshold and Random Dithering) to generate images.
+        Files: dithering.py
+        Features:
+            Apply Threshold Dithering to an image
+            Apply Random Dithering to an image
+            Display the original and dithered images using Tkinter
+        Usage:
+            Run the script: python dithering.py
+            Select an image file to apply the dithering algorithms.
 
-!! When quiting, the code kept having a "pygame.error: display Surface quit", I couldnt unfortunately fix this.
+Getting Started
 
+To run any of the projects, you need to have Python installed on your system. Additionally, you will need to install the Tkinter library if it is not already included in your Python installation.
+Prerequisites
+
+    Python 3.x
+    Tkinter (usually included with standard Python installations)
+
+Installation
+
+    Clone the repository:
+
+    sh
+
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
+Navigate to the directory of the project you want to run and execute the script:
+
+sh
+
+python connect_four.py
+
+or
+
+sh
+
+python timer.py
+
+or
+
+sh
+
+    python dithering.py
+
+Note
+
+These projects are educational and may contain mistakes. They were created as part of a learning process in our Programming 2 lecture.
+Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or bug fixes.
