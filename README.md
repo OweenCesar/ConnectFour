@@ -1,7 +1,7 @@
 # ConnectFour
 Author: Oween Cesar Barranzuela Carrasco, Student Number = 2***3
 This repository contains three small projects developed as part of our Programming 2 lecture. These projects were intended to help us improve our Python skills and are subject to mistakes.
-Projects Overview
+## Projects Overview
 
     Connect Four
         Description: This project implements the famous Connect Four game. The game includes an AI opponent that uses the Minimax algorithm to make decisions.
