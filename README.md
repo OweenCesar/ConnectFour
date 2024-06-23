@@ -10,7 +10,8 @@ This repository contains three small projects developed as part of our Programmi
 **Files:** connect_four.py                                                                                                                                                                                                                              
 
 **Features:**                                                                                                                                                                                                                                                        
-           -Player vs. Player 2                                                                            
+           -Player vs. Player 2  
+           -Random player
             -Player vs. AI mode using the Minimax algorithm       
 
             
